@@ -9,6 +9,8 @@ It deploys a basic AWS infrastructure simulating a secure web environment based 
 
 ## Architecture 
 
+<img width="1913" height="1200" alt="Blank diagram" src="https://github.com/user-attachments/assets/aeb29fd2-4fd8-4092-8d6f-453c0124d23f" />
+
 Based on the design diagram, the infrastructure includes:
 
 * **Main VPC:** CIDR `10.0.0.0/16`.
@@ -18,7 +20,7 @@ Based on the design diagram, the infrastructure includes:
     * Ingress: HTTPS (443) from anywhere (`0.0.0.0/0`).
     * Egress: All traffic.
 
-## Educational Objective (The "Why")
+## Educational Objective
 
 The main purpose of this project is not just creating resources, but **controlling the order** in which Terraform reports they are ready.
 
