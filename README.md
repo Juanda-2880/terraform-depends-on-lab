@@ -28,6 +28,8 @@ In this lab, we practice how to force Terraform to wait for specific conditions 
 **Scenario:**
 We want to display the Subnet ID or a resource status, but **only** when we are certain that the *Security Group* has been successfully created and configured. If Terraform returns the output before the Firewall (SG) is ready, the environment might be considered "deployed" but not yet "secure."
 
+---
+
 ### Prerequisites
 
 * [Terraform](https://www.terraform.io/downloads.html) installed (v1.0+).
