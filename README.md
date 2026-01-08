@@ -1,5 +1,8 @@
 Terraform Lab: Flow Control & Dependencies
 
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 This repository contains a hands-on lab designed to understand and apply the `depends_on` meta-argument in Terraform, as well as managing `outputs`.
 
 It deploys a basic AWS infrastructure simulating a secure web environment based on a custom network architecture.
